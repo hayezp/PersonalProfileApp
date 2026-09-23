@@ -15,7 +15,10 @@ function Education() {
       <Text style={styles.sectionTitle}>Education</Text>
       <Text style={styles.bodyText}>Point Park University</Text>
       <Text style={styles.detailText}>
-        Studying technology, programming, data, and mobile development.
+        Applied Computer Science - Senior
+      </Text>
+      <Text style={styles.detailText}>
+        Currently learning more about programming, data, and mobile development.
       </Text>
     </View>
   );
@@ -32,7 +35,7 @@ function TechnicalSkills() {
       <Text style={styles.bodyText}>• SQL & Database Fundamentals</Text>
       <Text style={styles.bodyText}>• Data Quality & Validation</Text>
       <Text style={styles.bodyText}>• Microsoft Excel</Text>
-      <Text style={styles.bodyText}>• Git & GitHub</Text>
+      <Text style={styles.bodyText}>• GitHub</Text>
       <Text style={styles.bodyText}>• React Native (Learning)</Text>
     </View>
   );

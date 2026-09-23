@@ -48,4 +48,4 @@ The biggest issue that I ran into was honestly just getting everything set up an
 - Android Studio
 - Android Emulator
 - Visual Studio Code
-- Git and GitHub
+- GitHub
