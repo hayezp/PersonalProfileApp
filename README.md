@@ -1,97 +1,51 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Personal Profile Mobile App
 
-# Getting Started
+## CMPS 460 - Mobile Development
+**Page Hayes**
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## About My App
 
-## Step 1: Start Metro
+For this assignment I made a personal profile app using React Native. I kept it pretty simple and focused on making it look clean and organized. I included some information about me, my education, skills I have learned through school and work, and what I want to do in the future. I also separated parts of the app into different sections instead of putting everything together in one section.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## Written Questions
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+### 1. What is React Native, and why would an organization choose it for mobile application development?
 
-```sh
-# Using npm
-npm start
+React Native is a way to build mobile apps using JavaScript or TypeScript. A company may choose it because they can use a lot of the same code for Android and iOS. This can make it easier than creating two completely different apps.
 
-# OR using Yarn
-yarn start
-```
+### 2. What is the purpose of a View component?
 
-## Step 2: Build and run your app
+I think of a View component as something like a container for various things on a screen. I used Views in my app to group things together and make each section easier to be organized.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+### 3. Why must text normally be placed inside a Text component?
 
-### Android
+Text has to be placed inside a Text component for React Native to display it correctly. It also lets you change things like the size, color, and boldness of the text.
 
-```sh
-# Using npm
-npm run android
+### 4. What is TSX?
 
-# OR using Yarn
-yarn android
-```
+TSX lets you use TypeScript and React code together. My App.tsx file is where I wrote the components and the layout for what shows up on the screen of my app.
 
-### iOS
+### 5. What is the purpose of StyleSheet.create()?
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+StyleSheet.create() is what I used to style my app. This is where I changed things like colors, font sizes, spacing, borders, and the rounded corners on my sections. It helped me keep all of my styles organized instead of putting them throughout the rest of my code.
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+### 6. What is a React component?
 
-```sh
-bundle install
-```
+A React component is basically a section of the app that you can create separately. In my app, I made Education, Technical Skills, and Career Goals into their own components. Doing this helped me understand how an app can be broken down into smaller parts, and make it nicer to look at.
 
-Then, and every time you update your native dependencies, run:
+### 7. Why would developers divide an application into multiple components instead of putting everything inside App.tsx?
 
-```sh
-bundle exec pod install
-```
+Diving things makes the code a lot easier to read and work with. If everything was inside App.tsx, it could get confusing once an app gets bigger. Breaking my app into components helped keep everything organized and made it easier for me to see what each part of the code was doing. Developers would do this to keep organization and the app neat. 
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### 8. Describe one error you encountered while developing your application and explain how you resolved it.
 
-```sh
-# Using npm
-npm run ios
+The biggest issue that I ran into was honestly just getting everything set up and getting my app to actually run on the Android Emulator. At first React Native could not find my Android SDK. I had to find where the SDK was installed on my computer and add the correct path to the project. I also had an issue with the adb command not working, so I had to update my PATH settings and restart VS Code. Once I fixed those things, I was finally able to get the app running on the emulator and everything be running good. 
 
-# OR using Yarn
-yarn ios
-```
+## What I Used
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- React Native
+- TypeScript
+- Android Studio
+- Android Emulator
+- Visual Studio Code
+- Git and GitHub
